@@ -141,6 +141,10 @@ p{
     .content-block-01, .content-block-02{
         margin: 2rem 0rem;
     }
+
+    .blocks{
+        margin-top: 10rem;
+    }
   }
 
   @media (max-width: 650px){

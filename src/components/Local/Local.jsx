@@ -19,7 +19,7 @@ function Local(){
             <div className="DivTitulo"><h1 className="LocalTitle">Nuestro restoran</h1></div>            
             <div className="ImageBlockContainer">
                 <div className="fila-flex-1">
-                    <img src={foto1} alt="" />
+                    <img id="foto1" src={foto1} alt="" />
                 </div>
                 <div className="fila-flex-2">
                     <img id="foto2" src={foto2} alt="" />
