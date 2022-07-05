@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.blocks-contactanos{
+    display: flex;
+}
+
+.black-block, .white-block{
+    height: 100vh;
+    width: 50%;
+}
+
+.black-block{
+    background-color: #171717;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+
+.white-block{
+    background-color: #eeeeee;
+    color: black;
+}
+
+#Contactanos{
+    font-size: 10rem;
+}
+
+#contactanos-img-ubicacion, 
+#contactanos-img-telefono, 
+#contactanos-img-instagram, 
+#contactanos-img-facebook{
+    width: 1.5rem;
+    height: 5.5rem;
+}
+
+.contactanos-ubicacion, .contactanos-telefono, .contactanos-instagram, .contactanos-facebook{
+    width: 100%;
+    height: 3rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#black-text{
+    font-size: 1rem;
+}
+
+
+

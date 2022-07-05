@@ -1,0 +1,167 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Libre+Baskerville:wght@700&family=Roboto&display=swap');
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    background-color: #141414;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+#img-component1{
+    border-radius: 5rem;
+    max-width: 60rem;
+    border: 0.5rem solid white;
+}
+
+.block-01, .block-02{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+    margin-top: 15rem;
+}
+
+.content-block-01, .content-block-02{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /*border: 0.2rem solid lightgreen;*/
+    border-radius: 2rem;
+}
+
+.content-block-01{
+    /*margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 0rem;*/
+    margin: 2rem 0rem 2rem 5rem;
+}
+
+.content-block-02{
+    /*margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 5rem;*/
+    margin: 2rem 5rem 2rem 0rem;
+}
+
+p{
+    max-width: 50rem;
+    font-size: 3rem;
+    margin: 2rem 5rem;
+    color: white;
+    text-align: center;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#component1-h1{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#component1-h2{
+    font-size: 4rem;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+#HomeButton{
+    padding: 1rem;
+    width: 70%;
+    border-radius: 1rem;
+    border: 0px;
+    background-color: white;
+    color: black;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+#HomeButton:hover{
+    background-color: #eee;
+}
+
+@media (max-width: 1300px) {
+    p{
+        font-size: 2.5rem;
+    }
+
+    #img-component1{
+        max-width: 70rem;
+        border-radius: 3rem;
+        
+        visibility: hidden;
+        width: 0%;
+    }
+
+    .img-box{
+        width: 0%;
+        height: 0%;
+
+    }
+
+    .block-01, .block-02{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    #HomeButton{
+        font-size: 2rem;
+    }
+
+    .content-block-01, .content-block-02{
+        margin: 2rem 0rem;
+    }
+  }
+
+  @media (max-width: 650px){
+    #component1-h1{
+        font-size: 5rem;
+    }
+
+    p{
+        max-width: 50rem;
+        font-size: 2rem;
+        margin: 2rem 2rem;
+
+    }
+
+    .title{
+        margin-bottom: 0rem;
+    }
+
+    .content-block-01, .content-block-02{
+        margin: 2rem 2rem;
+    }
+
+    #component1-h1{
+        font-size: 4.5rem;
+    }
+
+    #component1-h2{
+        font-size: 3.5rem;
+    }
+  }
