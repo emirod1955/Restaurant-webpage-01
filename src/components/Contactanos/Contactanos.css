@@ -44,15 +44,11 @@ body{
     color: black;
 }
 
-#Contactanos{
-    font-size: 10rem;
-}
-
 #contactanos-img-ubicacion, 
 #contactanos-img-telefono, 
 #contactanos-img-instagram, 
 #contactanos-img-facebook{
-    width: 1.5rem;
+    width: 1.7rem;
     height: 5.5rem;
 }
 
@@ -65,7 +61,11 @@ body{
 }
 
 #black-text{
-    font-size: 1rem;
+    font-size: 1.3rem;
+}
+
+#contactanos-title{
+    font-size: 7rem;
 }
 
 

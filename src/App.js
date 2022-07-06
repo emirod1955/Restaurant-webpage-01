@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {Home} from './components/Home/Home';
 import {Nosotros} from './components/Nosotros/Nosotros';
 import {Component2} from './components/Component2/Component2';
-import {Contactanos} from './components/ElLocal/Contactanos';
+import {Contactanos} from './components/Contactanos/Contactanos';
 import NavBar from './components/NavBar/NavBar';
 
 

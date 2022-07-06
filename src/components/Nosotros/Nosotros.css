@@ -104,6 +104,12 @@ p{
     background-color: #eee;
 }
 
+#Download-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1300px) {
     p{
         font-size: 2.5rem;

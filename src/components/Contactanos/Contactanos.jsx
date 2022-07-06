@@ -1,5 +1,6 @@
 import React from "react";
 
+//import css
 import './Contactanos.css';
 
 //import images
@@ -12,7 +13,7 @@ function Contactanos (){
   return(
     <div className="blocks-contactanos">
       <div className="black-block">
-        <h1 id="Contactanos">Contactanos</h1>
+        <h1 id="contactanos-title">Contactanos</h1>
         <div className="datos">
           <div className="contactanos-ubicacion"><Ubicacion id="contactanos-img-ubicacion"/><p id="black-text">Av Libertador</p></div>
           <div className="contactanos-telefono"><Telefono id="contactanos-img-telefono"/><p id="black-text">093396927</p></div>

@@ -16,7 +16,10 @@ function Nosotros (){
                                 <h2 id="component1-h2">Subtitle</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum felis ac est posuere viverra. Praesent pretium mattis est, vitae egestas nunc. Donec egestas fermentum dui bibendum mattis. Nunc rhoncus cursus enim sed dignissim. Nullam ac auctor urna. Praesent gravida felis eget quam convallis, eget finibus augue faucibus. Etiam semper eleifend purus, non euismod dolor viverra ac. Nam accumsan elit nec sapien pulvinar, in porttitor ligula condimentum. Ut lacinia, neque sed pretium rutrum, justo enim vestibulum massa, et vestibulum lacus lectus vel est.</p>
                             </div>
-                                <input id="HomeButton" type="button" value="More information"></input>                        </div>
+                            <a id="Download-link" href={require('./documents/menu.pdf')} target="_blank" rel="noopener noreferrer">
+                                <input id="HomeButton" type="button" value="Ver carta"></input>
+                            </a>                        
+                        </div>
                 </div></Fade>
 
                 <Fade><div className="block-01">
