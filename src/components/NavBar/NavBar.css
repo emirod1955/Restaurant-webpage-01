@@ -30,10 +30,10 @@ a{
 .nav{
     /*background-color: #0275d8;*/
     background-color: #fff;
-    border-radius: 10rem;
+    /*border-radius: 10rem;
     margin-top: 2rem;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 2rem;*/
     display: flex;
     justify-content: space-between;
 }

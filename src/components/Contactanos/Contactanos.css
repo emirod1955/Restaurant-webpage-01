@@ -68,5 +68,39 @@ body{
     font-size: 7rem;
 }
 
+.white-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#SubmitButton{
+    color: white;
+    border: none;
+    padding: 0.5rem 3rem;
+}
 
+.ButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.Inputs, .ContactanosTextArea{
+    border: 0;
+    width: 30rem;
+    border-radius: 0.3rem;
+}
+
+.Inputs{
+    height: 2.5rem;
+}
+
+.ContactanosTextArea{
+    height: 5rem;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+}
