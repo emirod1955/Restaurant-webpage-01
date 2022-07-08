@@ -1,0 +1,74 @@
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    background-color: #141414;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+#foto{
+    width: 40rem;
+    margin: 1rem;
+    border: 0.5rem solid white;
+}
+
+.AllLocal{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+.ImageBlockContainer{
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ImageContainer{
+    text-align: center;
+}
+
+.DivTitulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.LocalTitle{
+    color: white;
+    font-size: 5rem;
+}
+
+#foto{
+    border-radius: 1rem;
+}
+
+@media (max-width: 660px) {
+    .LocalTitle{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 525px){
+    #foto{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 425px){
+    .ImageBlockContainer{
+        margin: 4rem 0;
+    }
+}

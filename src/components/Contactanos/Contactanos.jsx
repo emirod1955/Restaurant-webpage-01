@@ -32,7 +32,9 @@ function Contactanos (){
         })
         .then(() => {
           setLoader(false);
-          alert("Your message has been submitted👍");
+          //alert("Your message has been submitted👍");
+          //<Link to="/envio-de-datos-exitosamente"/>
+          document.location.assign('/envio-de-datos-exitosamente');
         })
         .catch((error) => {
           alert(error.message);
@@ -68,17 +70,18 @@ function Contactanos (){
               placeholder="Nombre"
               
               onChange={(e) => setName(e.target.value)}
-            />
+            required/>
           </div>
 
           <div className="seccion1">
           <label>Telefono</label>
             <input
+              type="number"
               className="Inputs"
               placeholder="Telefono de contacto"
               
               onChange={(e) => setPhone(e.target.value)}
-            />
+            required/>
           </div>
 
           <div className="seccion1">
@@ -89,7 +92,7 @@ function Contactanos (){
               placeholder="Numero de personas"
               
               onChange={(e) => setPeople(e.target.value)}
-            />
+            required/>
           </div>
 
           <div className="seccion1">
@@ -99,13 +102,13 @@ function Contactanos (){
               className="Inputs"
               
               onChange={(e) => setDate(e.target.value)}
-            />
+            required/>
           </div>
           
           <div className="ButtonDiv">
           <button
             type="submit"
-            style={{ background: loader ? "#000" : "#171717" }}
+            style={{ background: loader ? "#000000" : "#303030" }}
             id="SubmitButton"
           >
           Enviar

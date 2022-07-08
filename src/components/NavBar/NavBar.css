@@ -93,3 +93,11 @@ li{
 #Download-link{
     width: 100%;
 }
+
+.nav-menu-item-contactanos{
+    margin: 0;
+    padding: 0.9rem;
+    border: 0.1rem solid black;
+    margin: 0 1rem;
+}
+

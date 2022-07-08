@@ -16,21 +16,21 @@ function NavBar(props){
     return(
         <header className="header">
             <nav className="nav">
-                <Link className="nav-link Brand" to="/">Brand</Link>
+                <Link className="nav-link Brand" to="/">Nombre</Link>
                 <ul className="nav-menu ">
                         <li className={`nav-menu-item  ${props.location.pathname === "/Nosotros" ? "active" : ""}`}>
                             <Link className="nav-link" to="/nosotros">
                                 Nosotros
                             </Link>
                         </li>
-                        <li className={`nav-menu-item  ${props.location.pathname === "/component2" ? "active" : ""}`}>
-                            <Link className="nav-link" to="/el-local">
-                                El local
+                        <li className={`nav-menu-item  ${props.location.pathname === "/nuestro-local" ? "active" : ""}`}>
+                            <Link className="nav-link" to="/nuestro-local">
+                                Nuestro local
                             </Link>
                         </li>
-                        <li className={`nav-menu-item  ${props.location.pathname === "/el-local" ? "active" : ""}`}>
+                        <li className={`nav-menu-item-contactanos  ${props.location.pathname === "/el-local" ? "active" : ""}`}>
                             <Link className="nav-link" to="/contactanos">
-                                Contactanos
+                                RESERVACION
                             </Link>
                         </li>
                 </ul>
