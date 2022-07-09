@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
 /*GENERAL CHARACTARISTICS*/
 *{
     box-sizing: border-box;
@@ -15,60 +17,44 @@ body{
     font-size: 1.6rem;
 }
 
-#foto{
-    width: 40rem;
-    margin: 1rem;
-    border: 0.5rem solid white;
-}
-
 .AllLocal{
     display: flex;
     justify-content: center;
-    height: 100%;
+    align-items: center;
     width: 100%;
-    margin-top: 10rem;
     flex-direction: column;
-}
-
-.ImageBlockContainer{
-    margin: 5rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.ImageContainer{
     text-align: center;
+    margin-top: 10rem;
 }
 
 .DivTitulo{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.LocalTitle{
+    margin-bottom: 5rem;
     color: white;
-    font-size: 5rem;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 4rem;
 }
 
-#foto{
-    border-radius: 1rem;
+.ImageBlockContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
 }
 
-@media (max-width: 660px) {
-    .LocalTitle{
-        font-size: 3rem;
-    }
+.fila-flex-1, .fila-flex-2, .fila-flex-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media (max-width: 525px){
-    #foto{
-        width: 30rem;
-    }
+#foto2, #foto3{
+    width: 38rem;
+    margin: 2rem;
 }
 
-@media (max-width: 425px){
-    .ImageBlockContainer{
-        margin: 4rem 0;
-    }
+#foto4, #foto5, #foto6{
+    width: 24rem;
+    margin: 2rem;
 }
+
