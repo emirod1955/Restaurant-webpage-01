@@ -33,7 +33,6 @@ function Contactanos (){
         .then(() => {
           setLoader(false);
           //alert("Your message has been submitted👍");
-          //<Link to="/envio-de-datos-exitosamente"/>
           document.location.assign('/envio-de-datos-exitosamente');
         })
         .catch((error) => {

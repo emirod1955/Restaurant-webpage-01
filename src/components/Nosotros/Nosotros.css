@@ -118,7 +118,6 @@ p{
     #img-component1{
         max-width: 70rem;
         border-radius: 3rem;
-        
         visibility: hidden;
         width: 0%;
     }
