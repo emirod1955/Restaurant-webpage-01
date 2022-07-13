@@ -17,12 +17,15 @@ function NavBar(){
 
     return(
       <header className="Navegacion">
+        <div><Link to="/" className="Brand-OutUl">Name</Link></div>
         <ul className={isNavExpanded ? "topnav responsive" : "topnav"}>
-            <Link to="/" className="active Brand">Name</Link>
+          <div className="Brand"><Link to="/" className="active">Name</Link></div>
+          <div  iv className="mid">
             <Link to="/nosotros">Nosotros</Link>
             <Link to="/nuestro-local">Nuestro local</Link>
             <Link to="/contactanos" className="nav-menu-item-contactanos">RESERVACION</Link>
-          <a href="#!" className="icon" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>
+          </div>
+          <a href="#!" className="icon" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>
             <i className="fa fa-bars"/>
           </a>
         </ul>

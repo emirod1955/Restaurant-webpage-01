@@ -12,17 +12,24 @@ body{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .imgs{
   display: flex;
   flex-direction: row;
   margin-right: 2rem;
+  align-items: center;
 }
 
-.imgs{
+.Brand-OutUl{
+  height: 100%;
   display: flex;
   align-items: center;
+  margin-left: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .facebook{
@@ -31,6 +38,7 @@ body{
 
 .topnav {
   display: flex;
+  justify-content: space-between;
 }
 
 .topnav a {
@@ -38,7 +46,8 @@ body{
   display: flex;
   color: black;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 0.9rem;
+  margin: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -50,10 +59,27 @@ body{
 .Brand{
   font-weight: bold;
   font-size: 2rem;
+  display: none;
+}
+
+.nav-menu-item-contactanos{
+  border: 0.1rem solid black;
 }
 
 @media (max-width: 600px) {
   .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .Brand-OutUl{
+    display: none;
+  }
+
+  .Brand{
+    display: flex;
+  }
+
+  .mid{
     display: none;
   }
 
@@ -82,10 +108,19 @@ body{
     flex-direction: column;
   }
 
+  .topnav.responsive .mid{
+    display: flex;
+    flex-direction: column;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
+  }
+
+  .topnav.responsive .nav-menu-item-contactanos{
+    width: min-content;
   }
 
   .topnav.responsive a {
