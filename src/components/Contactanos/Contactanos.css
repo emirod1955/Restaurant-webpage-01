@@ -22,7 +22,7 @@ body{
 .black-block, .white-block{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 95vh;
     width: 50%;
 }
 

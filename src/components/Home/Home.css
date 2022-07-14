@@ -15,29 +15,33 @@ body{
     font-size: 1.6rem;
 }
 
-.content-01, .content-02{
+.Home-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
-}
-
-.content-01{
+    height: 95vh;
     background-color: #141414;
 }
 
-img{
-    width: 80rem;
-}
-
-#Home-h1{
+.Home-h1{
     font-size: 10rem;
     font-family: 'Dancing Script', cursive;
     color: white;
+    text-align: center;
 }
 
-#Home-h2{
+.Home-h2{
     color: white;
 }
+
+@media (max-width: 420px){
+    .Home-h1{
+        font-size: 8rem;
+    }
+    .Home-h2{
+        font-size: 1.5rem;
+    }
+}
+

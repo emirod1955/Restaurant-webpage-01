@@ -11,6 +11,7 @@ import {Local} from './components/Local/Local';
 import {Contactanos} from './components/Contactanos/Contactanos';
 import NavBar from './components/NavBar/NavBar';
 import {Exito} from './components/Exito/Exito';
+import {Footer} from './components/Footer/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contactanos" exact component={() => <Contactanos />} />
           <Route path="/envio-de-datos-exitosamente" exact component={() => <Exito />} />
         </Switch>
+        <Footer/>
       </Router>
     </React.Fragment>
   );

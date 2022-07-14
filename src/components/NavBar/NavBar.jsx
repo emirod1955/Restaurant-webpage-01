@@ -19,11 +19,11 @@ function NavBar(){
       <header className="Navegacion">
         <div><Link to="/" className="Brand-OutUl">Name</Link></div>
         <ul className={isNavExpanded ? "topnav responsive" : "topnav"}>
-          <div className="Brand"><Link to="/" className="active">Name</Link></div>
+          <div className="Brand"><Link to="/" className="active" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Name</Link></div>
           <div  iv className="mid">
-            <Link to="/nosotros">Nosotros</Link>
-            <Link to="/nuestro-local">Nuestro local</Link>
-            <Link to="/contactanos" className="nav-menu-item-contactanos">RESERVACION</Link>
+            <Link to="/nosotros" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Nosotros</Link>
+            <Link to="/nuestro-local" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Nuestro local</Link>
+            <Link to="/contactanos" className="nav-menu-item-contactanos" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>RESERVACION</Link>
           </div>
           <a href="#!" className="icon" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>
             <i className="fa fa-bars"/>

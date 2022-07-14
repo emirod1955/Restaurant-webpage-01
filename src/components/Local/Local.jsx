@@ -1,5 +1,6 @@
 //import react
 import React from "react";
+import Fade from 'react-reveal/Fade';
 
 //import css
 import './Local.css';
@@ -16,7 +17,7 @@ import foto6 from './img/foto6.jpg';
 function Local(){
     return(
         <div className="AllLocal">
-            <div className="DivTitulo"><h1 className="LocalTitle">Nuestro restoran</h1></div>            
+            <Fade><div className="DivTitulo"><h1 className="LocalTitle">Nuestro restoran</h1></div></Fade>            
             <div className="ImageBlockContainer">
                 <div className="fila-flex-1">
                     <img id="foto1" src={foto1} alt="" />

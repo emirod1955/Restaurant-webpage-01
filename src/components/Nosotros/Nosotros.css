@@ -1,4 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Libre+Baskerville:wght@700&family=Roboto&display=swap');
 /*GENERAL CHARACTARISTICS*/
 *{
@@ -98,6 +97,10 @@ p{
     color: black;
     margin-bottom: 3rem;
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }
 
 #HomeButton:hover{

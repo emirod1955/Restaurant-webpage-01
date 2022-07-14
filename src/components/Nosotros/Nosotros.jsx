@@ -3,13 +3,17 @@ import Fade from 'react-reveal/Fade';
 
 import './Nosotros.css';
 
+//img
+import Pizza from './img/Pizza.jpg';
+import Burger from './img/Burger.jpg';
+
 function Nosotros (){
     return(
         <div>
             <div className="blocks">
             <Fade><div className="block-01">
                         <picture className="img-box">                            
-                            <img id="img-component1" src="https://i.ibb.co/t3hczh7/pizza.jpg" alt="food" />
+                            <img id="img-component1" src={Pizza} alt="food" />
                         </picture>
                         <div className="content-block-01">
                             <div className="parrafo">
@@ -31,12 +35,11 @@ function Nosotros (){
                             <input id="HomeButton" type="button" value="More information"></input>
                         </div>
                         <picture className="img-box">                            
-                            <img id="img-component1" src="https://i.ibb.co/BNxQBy9/photo-1625813506062-0aeb1d7a094b.jpg" alt="food" />
+                            <img id="img-component1" src={Burger} alt="food" />
                         </picture>
                         
                 </div></Fade>
             </div>
-
         </div>
     );
 }
