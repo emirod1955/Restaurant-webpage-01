@@ -34,8 +34,6 @@ function NavBar(){
             <a href="https://www.facebook.com"><Facebook className="facebook" width="30" height="30"/></a>
             <a href="https://twitter.com/home"><Twitter className="twitter" width="30" height="30"/></a>
           </div>
-        
-
       </header>
     );
 }

@@ -10,6 +10,10 @@ import Telefono from "./img/Telefono";
 import Instagram from "./img/Instagram";
 import Facebook from "./img/Facebook";
 
+//phone input
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
+
 function Contactanos (){
 
     const [name, setName] = useState("");
@@ -32,7 +36,6 @@ function Contactanos (){
         })
         .then(() => {
           setLoader(false);
-          //alert("Your message has been submitted👍");
           document.location.assign('/envio-de-datos-exitosamente');
         })
         .catch((error) => {
@@ -74,12 +77,12 @@ function Contactanos (){
 
           <div className="seccion1">
           <label>Telefono</label>
-            <input
-              type="number"
+            <PhoneInput
+              country="US"
               className="Inputs"
+              value={phone}
               placeholder="Telefono de contacto"
-              
-              onChange={(e) => setPhone(e.target.value)}
+              onChange={setPhone}
             required/>
           </div>
 
@@ -89,6 +92,7 @@ function Contactanos (){
               type="number"
               className="Inputs"
               placeholder="Numero de personas"
+              max="15"
               
               onChange={(e) => setPeople(e.target.value)}
             required/>
