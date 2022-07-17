@@ -93,6 +93,7 @@ function Contactanos (){
               className="Inputs"
               placeholder="Numero de personas"
               max="15"
+              min="1"
               
               onChange={(e) => setPeople(e.target.value)}
             required/>
